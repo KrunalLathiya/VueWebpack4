@@ -1,0 +1,31 @@
+{
+  "name": "vue-webpack4",
+  "version": "1.0.0",
+  "description": "Vue js with Webpack project setup",
+  "main": "index.js",
+  "scripts": {
+    "dev": "webpack-dev-server --mode development",
+    "prod": "webpack --mode production"
+  },
+  "keywords": [
+    "Vue",
+    "js",
+    "Webpack"
+  ],
+  "author": "Krunal Lathiya",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.4",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-stage-0": "^6.24.1",
+    "vue-loader": "^14.2.1",
+    "vue-template-compiler": "^2.5.15",
+    "webpack": "^4.1.1",
+    "webpack-cli": "^2.0.11",
+    "webpack-dev-server": "^3.1.1"
+  },
+  "dependencies": {
+    "vue": "^2.5.15"
+  }
+}
